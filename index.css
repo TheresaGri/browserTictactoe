@@ -3,16 +3,30 @@ body {
     
 }
 #board {
-    background-color: blue;
+    background-color: white;
     width: 300px;
     height: 300px;
+    
 }
+
 .row {
     display: flex;
+   
 
 }
 .box {
-    height: 96px;
+    box-sizing: border-box;
+    height: 100px;
     width: 100px;
     border: 2px  solid black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.box-x {
+    color: red;
+}
+.box-o {
+    color: blue;
 }

@@ -6,25 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <link rel ="stylesheet" href = "index.css">
+    <script src = "index.js" defer ></script>
 </head>
 <body>
    <h1>TicTacToe</h1> 
    <div id = "board">
     <div class = "row">
-        <div class = "box">X</div>
         <div class = "box"></div>
         <div class = "box"></div>
-   </div>
-   <div class = "row">
-        <div class = "box"></div>
-        <div class = "box">O</div>
         <div class = "box"></div>
    </div>
    <div class = "row">
         <div class = "box"></div>
         <div class = "box"></div>
-        <div class = "box">X</div>
+        <div class = "box"></div>
    </div>
+   <div class = "row">
+        <div class = "box"></div>
+        <div class = "box"></div>
+        <div class = "box"></div>
+   </div>
+   <div id = "status-text"></div>
+   <button type = "button" id = "btn">Restart!</button>
+   <ul> 
+     <li>Spieler wechseln nach jedem Zug (globale Variable: active Player)</li>
+     <li>Klicks auf volle "Boxes" ignorieren</li>
+     <li>Button: Restart</li>
+     <li>Es zeigt an, wenn jemand gewinnt</li>
+   </ul>
   
 </div>
 </body>
