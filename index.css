@@ -2,3 +2,8 @@ body {
     font-family: sans-serif;
     
 }
+#board {
+    color: blue;
+    width: 300px;
+    height: 300px;
+}
