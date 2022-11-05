@@ -7,3 +7,12 @@ body {
     width: 300px;
     height: 300px;
 }
+.row {
+    display: flex;
+
+}
+.box {
+    height: 96px;
+    width: 100px;
+    border: 2px  solid black;
+}
